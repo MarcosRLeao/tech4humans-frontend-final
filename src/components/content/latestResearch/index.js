@@ -23,6 +23,7 @@ function ContentLatestResearch(props) {
         console.error('ops! ocorreu um erro' + err)
       })
   }, [cities])
+
   return (
     <ContentLatestStyled>
       <h2 className="listCity__title"><FaSearch/> Últimas Pesquisas</h2>

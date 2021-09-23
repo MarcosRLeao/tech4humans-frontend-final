@@ -8,7 +8,7 @@ function AsideContent ({ main, weather, data, sys }) {
   if (main == null || weather == null || data == null) {
     return (
       <AsideContentStyled>
-        <div className='FaSearchLocation'>
+        <div className='search__location'>
           <FaSearchLocation size={70}/>
           <br/>
           Pesquise pela cidade desejada e veja aqui o resultado

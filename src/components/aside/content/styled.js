@@ -7,7 +7,7 @@ export const AsideContentStyled = styled.div`
   align-items: center;
   margin-bottom: 32px;
 
-  .FaSearchLocation {
+  .search__location {
     color: #fff;
     width: 230px;
     font-size: 25px;
