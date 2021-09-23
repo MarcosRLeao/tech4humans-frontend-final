@@ -22,7 +22,7 @@ function ContentLatestResearch(props) {
       .catch(err => {
         console.error('ops! ocorreu um erro' + err)
       })
-  }, [cities])
+  }, [])
 
   return (
     <ContentLatestStyled>

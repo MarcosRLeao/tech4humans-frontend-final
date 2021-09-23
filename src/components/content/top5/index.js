@@ -24,7 +24,7 @@ function ContentTop5 (props) {
       .catch(err => {
         console.error('ops! ocorreu um erro' + err)
       })
-  }, [cities])
+  }, [])
 
   return (
     <ContentTop5Styled>
